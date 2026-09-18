@@ -4,115 +4,923 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BibleFollow – Read, Study & Understand the Bible</title>
+    <title>BibleFollow – Daily Bible, Verse & Bible Study</title>
 
     <meta name="description"
-          content="BibleFollow helps you read, study and understand the Bible with daily verses, study tools and AI-powered Bible assistance.">
+          content="Read, listen and understand God's Word with BibleFollow. Daily Bible verses, Scripture explanations, audio, devotions and Bible study tools.">
 
-    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+          content="Bible, daily Bible verse, Bible study, Scripture, Bible app, daily verse, Bible reading, audio Bible, Christian devotional">
 
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+    <meta name="author"
+          content="Marberx Technologies Pvt Ltd">
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                         Roboto, Helvetica, Arial, sans-serif;
-            background: #07120e;
-            color: #fff;
-        }
+    <meta name="robots"
+          content="index, follow">
 
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 40px 20px;
-            background:
-                radial-gradient(circle at top, #164b35 0%, #07120e 55%);
-        }
+    <meta name="theme-color"
+          content="#173d2b">
 
-        .container {
-            max-width: 900px;
-        }
+    <link rel="canonical"
+          href="https://biblefollow.app/">
 
-        .brand {
-            font-size: 22px;
-            font-weight: 700;
-            margin-bottom: 60px;
-        }
+    <!-- Open Graph -->
+    <meta property="og:title"
+          content="BibleFollow – Understand it. Grow closer.">
 
-        h1 {
-            font-size: clamp(48px, 8vw, 88px);
-            line-height: 1.02;
-            letter-spacing: -3px;
-            margin-bottom: 25px;
-        }
+    <meta property="og:description"
+          content="Read, listen and understand God's Word with BibleFollow.">
 
-        .highlight {
-            color: #75e6a4;
-        }
+    <meta property="og:type"
+          content="website">
 
-        p {
-            max-width: 650px;
-            margin: auto;
-            color: #b8c7c0;
-            font-size: 20px;
-            line-height: 1.6;
-        }
+    <meta property="og:url"
+          content="https://biblefollow.app/">
 
-        .buttons {
-            margin-top: 40px;
-        }
+    <meta property="og:image"
+          content="https://biblefollow.app/assets/images/og-image.webp">
 
-        .button {
-            display: inline-block;
-            background: #fff;
-            color: #07120e;
-            padding: 16px 28px;
-            margin: 8px;
-            border-radius: 12px;
-            text-decoration: none;
-            font-weight: 700;
-        }
-    </style>
+    <link rel="stylesheet"
+          href="assets/css/style.css">
 </head>
+
 
 <body>
 
-<section class="hero">
-    <div class="container">
+<!-- HEADER -->
 
-        <div class="brand">
-            BibleFollow
+<header class="site-header">
+
+    <div class="container navbar">
+
+        <a href="index.html"
+           class="brand"
+           aria-label="BibleFollow Home">
+
+            <div class="brand-mark">B</div>
+
+            <span>BibleFollow</span>
+
+        </a>
+
+
+        <button class="mobile-menu-button"
+                id="mobileMenuButton"
+                aria-label="Open navigation"
+                aria-expanded="false">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+
+        <nav class="navigation"
+             id="navigation">
+
+            <a href="#features">Features</a>
+
+            <a href="#understand">Understand</a>
+
+            <a href="#daily">Daily Walk</a>
+
+            <a href="#download"
+               class="nav-download">
+
+                Download
+
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<main>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+    <div class="hero-glow hero-glow-one"></div>
+    <div class="hero-glow hero-glow-two"></div>
+
+
+    <div class="container hero-grid">
+
+        <div class="hero-copy">
+
+            <div class="eyebrow">
+
+                <span class="eyebrow-dot"></span>
+
+                Your daily Bible companion
+
+            </div>
+
+
+            <h1>
+
+                Your Bible.<br>
+
+                Made easier to
+
+                <span class="accent-text">
+                    understand.
+                </span>
+
+            </h1>
+
+
+            <p class="hero-tagline">
+
+                Understand it. Grow closer.
+
+            </p>
+
+
+            <p class="hero-description">
+
+                Read, listen and explore God's Word
+                with clear explanations and a beautiful
+                daily Bible experience designed to help
+                you grow in Scripture.
+
+            </p>
+
+
+            <div class="hero-actions">
+
+                <a href="https://apps.apple.com/us/app/biblefollow-daily-bible-verse/id6749791863"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="app-store-button">
+
+                    <span class="apple-symbol">●</span>
+
+                    <span class="store-copy">
+
+                        <small>Download on the</small>
+
+                        <strong>App Store</strong>
+
+                    </span>
+
+                </a>
+
+
+                <a href="#features"
+                   class="secondary-button">
+
+                    Explore BibleFollow
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-points">
+
+                <span>✓ Beautiful Bible reading</span>
+                <span>✓ Daily Scripture</span>
+                <span>✓ Bible study tools</span>
+
+            </div>
+
         </div>
 
-        <h1>
-            Understand the Bible.<br>
-            <span class="highlight">Grow every day.</span>
-        </h1>
+
+
+        <div class="hero-product">
+
+            <div class="decorative-circle"></div>
+
+
+            <div class="phone phone-main">
+
+                <div class="phone-notch"></div>
+
+                <div class="phone-screen">
+
+                    <span class="screen-label">
+                        BibleFollow
+                    </span>
+
+                    <div class="screen-verse">
+
+                        <small>VERSE OF THE DAY</small>
+
+                        <h3>
+                            Be still, and know
+                            that I am God.
+                        </h3>
+
+                        <p>Psalm 46:10</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-one">
+
+                <span>✦</span>
+
+                <div>
+                    <strong>Understand</strong>
+                    <small>Explore Scripture deeper</small>
+                </div>
+
+            </div>
+
+
+            <div class="floating-card floating-card-two">
+
+                <span>☀</span>
+
+                <div>
+                    <strong>Daily Verse</strong>
+                    <small>Start your day with God</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- TRUST -->
+
+<section class="trust-strip">
+
+    <div class="container trust-content">
 
         <p>
-            Read Scripture, discover meaningful insights and build
-            a deeper daily relationship with God's Word.
+            Designed for a more meaningful
+            daily experience with God's Word
         </p>
 
-        <div class="buttons">
+        <div class="trust-items">
 
-            <a class="button"
-               href="#"
-               aria-label="Download BibleFollow on the App Store">
-                Download on the App Store
+            <span>READ</span>
+            <span class="trust-dot">•</span>
+
+            <span>LISTEN</span>
+            <span class="trust-dot">•</span>
+
+            <span>UNDERSTAND</span>
+            <span class="trust-dot">•</span>
+
+            <span>GROW</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FEATURES -->
+
+<section class="section features-section"
+         id="features">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-kicker">
+                EVERYTHING YOU NEED
+            </span>
+
+            <h2>
+                More than Bible reading.
+            </h2>
+
+            <p>
+                BibleFollow brings Scripture,
+                understanding and your daily spiritual
+                routine together in one beautiful experience.
+            </p>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    📖
+                </div>
+
+                <h3>
+                    Read the Bible
+                </h3>
+
+                <p>
+                    Enjoy a clean and focused Bible
+                    reading experience designed to keep
+                    Scripture at the center.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card featured-card">
+
+                <div class="feature-icon">
+                    ✨
+                </div>
+
+                <h3>
+                    Understand Scripture
+                </h3>
+
+                <p>
+                    Explore verses and chapters with
+                    helpful explanations that make
+                    Scripture easier to understand.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    🎧
+                </div>
+
+                <h3>
+                    Listen Anywhere
+                </h3>
+
+                <p>
+                    Keep God's Word close while
+                    commuting, relaxing or moving
+                    through your day.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ☀️
+                </div>
+
+                <h3>
+                    Daily Verse
+                </h3>
+
+                <p>
+                    Begin your day with Scripture
+                    and make God's Word part of your
+                    everyday routine.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    ✍️
+                </div>
+
+                <h3>
+                    Notes & Highlights
+                </h3>
+
+                <p>
+                    Save meaningful passages,
+                    highlight Scripture and keep
+                    personal reflections close.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card">
+
+                <div class="feature-icon">
+                    🔥
+                </div>
+
+                <h3>
+                    Build a Habit
+                </h3>
+
+                <p>
+                    Stay consistent and build a
+                    meaningful daily relationship
+                    with Scripture.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- UNDERSTAND -->
+
+<section class="section understand-section"
+         id="understand">
+
+    <div class="container split-grid">
+
+
+        <div class="visual-column">
+
+            <div class="visual-background"></div>
+
+
+            <div class="phone secondary-phone">
+
+                <div class="phone-notch"></div>
+
+                <div class="phone-screen explanation-screen">
+
+                    <small>
+                        SCRIPTURE
+                    </small>
+
+                    <h3>
+                        Philippians 4:13
+                    </h3>
+
+                    <blockquote>
+
+                        “I can do all things through
+                        Christ who strengthens me.”
+
+                    </blockquote>
+
+
+                    <div class="explanation-box">
+
+                        <span>✦</span>
+
+                        <div>
+
+                            <strong>
+                                Understand this verse
+                            </strong>
+
+                            <p>
+                                Explore the meaning,
+                                context and message
+                                behind Scripture.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="content-column">
+
+            <span class="section-kicker">
+                UNDERSTAND SCRIPTURE
+            </span>
+
+            <h2>
+                Don't just read it.<br>
+                Understand it.
+            </h2>
+
+            <p class="large-copy">
+
+                Scripture can sometimes feel difficult.
+                BibleFollow helps you explore passages
+                and understand God's Word more clearly.
+
+            </p>
+
+
+            <div class="check-list">
+
+                <div>
+                    <span>✓</span>
+                    Verse explanations
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Chapter summaries
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Biblical context
+                </div>
+
+                <div>
+                    <span>✓</span>
+                    Bible study assistance
+                </div>
+
+            </div>
+
+
+            <a href="https://apps.apple.com/us/app/biblefollow-daily-bible-verse/id6749791863"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="text-link">
+
+                Explore BibleFollow
+                <span>→</span>
+
             </a>
 
         </div>
 
     </div>
+
 </section>
+
+
+
+<!-- DAILY WALK -->
+
+<section class="section daily-section"
+         id="daily">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-kicker">
+                YOUR DAILY WALK
+            </span>
+
+            <h2>
+                Grow closer,<br>
+                one day at a time.
+            </h2>
+
+            <p>
+                Create a simple, meaningful rhythm
+                around Scripture and reflection.
+            </p>
+
+        </div>
+
+
+        <div class="daily-grid">
+
+            <div class="daily-card">
+
+                <span class="daily-number">
+                    01
+                </span>
+
+                <div class="daily-icon">
+                    ☀️
+                </div>
+
+                <h3>
+                    Start
+                </h3>
+
+                <p>
+                    Begin your morning with
+                    a meaningful daily verse.
+                </p>
+
+            </div>
+
+
+            <div class="daily-line"></div>
+
+
+            <div class="daily-card">
+
+                <span class="daily-number">
+                    02
+                </span>
+
+                <div class="daily-icon">
+                    📖
+                </div>
+
+                <h3>
+                    Read
+                </h3>
+
+                <p>
+                    Spend meaningful time
+                    reading God's Word.
+                </p>
+
+            </div>
+
+
+            <div class="daily-line"></div>
+
+
+            <div class="daily-card">
+
+                <span class="daily-number">
+                    03
+                </span>
+
+                <div class="daily-icon">
+                    ✦
+                </div>
+
+                <h3>
+                    Understand
+                </h3>
+
+                <p>
+                    Explore Scripture and
+                    discover deeper meaning.
+                </p>
+
+            </div>
+
+
+            <div class="daily-line"></div>
+
+
+            <div class="daily-card">
+
+                <span class="daily-number">
+                    04
+                </span>
+
+                <div class="daily-icon">
+                    🙏
+                </div>
+
+                <h3>
+                    Reflect
+                </h3>
+
+                <p>
+                    Carry what you've learned
+                    into the rest of your day.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- READING EXPERIENCE -->
+
+<section class="section reading-section">
+
+    <div class="container reading-grid">
+
+        <div>
+
+            <span class="section-kicker light-kicker">
+                WHEREVER LIFE TAKES YOU
+            </span>
+
+            <h2>
+                God's Word.<br>
+                Always close.
+            </h2>
+
+            <p>
+
+                Read, listen, save meaningful
+                passages and return to Scripture
+                throughout your day.
+
+            </p>
+
+        </div>
+
+
+        <div class="reading-features">
+
+            <div>
+                <strong>Multiple Bible Versions</strong>
+                <span>Explore Scripture your way</span>
+            </div>
+
+            <div>
+                <strong>Audio Bible</strong>
+                <span>Listen wherever you are</span>
+            </div>
+
+            <div>
+                <strong>Highlights</strong>
+                <span>Remember meaningful verses</span>
+            </div>
+
+            <div>
+                <strong>Bookmarks & Notes</strong>
+                <span>Keep your reflections organized</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- FINAL DOWNLOAD -->
+
+<section class="download-section"
+         id="download">
+
+    <div class="download-glow"></div>
+
+
+    <div class="container download-content">
+
+        <div class="small-brand-mark">
+            B
+        </div>
+
+        <span class="section-kicker">
+            BIBLEFOLLOW
+        </span>
+
+        <h2>
+            Understand it.<br>
+            Grow closer.
+        </h2>
+
+        <p>
+
+            Make God's Word part of every day
+            with BibleFollow.
+
+        </p>
+
+
+        <a href="https://apps.apple.com/us/app/biblefollow-daily-bible-verse/id6749791863"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="app-store-button">
+
+            <span class="apple-symbol">●</span>
+
+            <span class="store-copy">
+
+                <small>Download on the</small>
+
+                <strong>App Store</strong>
+
+            </span>
+
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <div class="container footer-top">
+
+        <div class="footer-brand">
+
+            <a href="index.html"
+               class="brand">
+
+                <div class="brand-mark">B</div>
+
+                <span>BibleFollow</span>
+
+            </a>
+
+            <p>
+                Understand it. Grow closer.
+            </p>
+
+        </div>
+
+
+        <div class="footer-navigation">
+
+            <div>
+
+                <strong>Explore</strong>
+
+                <a href="#features">
+                    Features
+                </a>
+
+                <a href="#understand">
+                    Understand
+                </a>
+
+                <a href="#daily">
+                    Daily Walk
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <strong>Legal</strong>
+
+                <a href="https://bibleoffice.com/privacy_policy.html"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Privacy Policy
+                </a>
+
+                <a href="https://bibleoffice.com/terms_conditions.html"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Terms
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <strong>Download</strong>
+
+                <a href="https://apps.apple.com/us/app/biblefollow-daily-bible-verse/id6749791863"
+                   target="_blank"
+                   rel="noopener noreferrer">
+
+                    App Store
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © <span id="currentYear">2026</span>
+            Marberx Technologies Pvt Ltd.
+            All rights reserved.
+        </p>
+
+
+        <p>
+            BibleFollow
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
